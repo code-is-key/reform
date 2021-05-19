@@ -1,0 +1,80 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint", "unused-imports"],
+    "extends": [
+      "react-app",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "overrides": [
+      {
+        "files": ["**/*.ts?(x)"]
+      }
+    ],
+    "rules": {
+      "max-len": ["warn", { "code": 120 }],
+      "no-use-before-define": "off",
+      "import/prefer-default-export": "off",
+      "no-new": "off",
+      "no-plusplus": "off",
+      "no-console": ["warn", { "allow": ["error"] }],
+      "consistent-return": "off",
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "js": "never",
+          "jsx": "never",
+          "ts": "never",
+          "tsx": "never"
+        }
+      ],
+      "react-hooks/exhaustive-deps": "off",
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/no-explicit-any": "off",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+      "react/jsx-props-no-spreading": "off",
+      "react/no-array-index-key": "off",
+      "react/prop-types": "off",
+      "jsx-quotes": ["warn", "prefer-double"],
+      "@typescript-eslint/no-unused-vars": "warn",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "unused-imports/no-unused-imports-ts": "warn",
+      "react/display-name": "off",
+      "import/order": [
+        2,
+        {
+          "groups": ["builtin", "external", "internal", ["parent", "sibling", "index"], "object"],
+          "newlines-between": "never",
+          "alphabetize": {
+            "order": "ignore",
+            "caseInsensitive": false
+          }
+        }
+      ]
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      }
+    }
+  }
+  
