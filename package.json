@@ -41,5 +41,12 @@
   },
   "files": [
     "lib/"
-  ]
+  ],
+  "repository": "code-is-key/reform",
+  "auto": {
+    "plugins": [
+      "npm",
+      "conventional-commits"
+    ]
+  }
 }
