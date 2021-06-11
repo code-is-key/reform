@@ -8,7 +8,6 @@
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "typecheck": "tsc --noEmit --composite false",
     "build": "tsc",
-    "prepare": "npm run build",
     "release": "auto shipit --dry-run",
     "release:ci": "auto shipit"
   },
