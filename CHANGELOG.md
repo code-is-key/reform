@@ -1,3 +1,18 @@
+# v0.0.5 (Fri Jun 11 2021)
+
+#### 🐛 Bug Fix
+
+- fix: update build config ([@groenborg](https://github.com/groenborg))
+- fix: update gh token ([@groenborg](https://github.com/groenborg))
+- fix: add docs ([@groenborg](https://github.com/groenborg))
+- fix: add ci workflow ([@groenborg](https://github.com/groenborg))
+
+#### Authors: 1
+
+- Simon Grønborg ([@groenborg](https://github.com/groenborg))
+
+---
+
 # v0.0.4 (Fri Jun 11 2021)
 
 #### 🐛 Bug Fix
