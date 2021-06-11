@@ -26,6 +26,7 @@ jobs:
 
       - name: Publish to registry
         run: |
-          npm publish
+          npm run release:ci
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
