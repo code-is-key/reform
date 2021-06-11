@@ -1,6 +1,6 @@
 {
   "name": "@code-is-key/reform",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The only form library you ever will need",
   "main": "lib/index.js",
   "scripts": {
