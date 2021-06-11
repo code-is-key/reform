@@ -44,6 +44,7 @@
   ],
   "repository": "code-is-key/reform.git",
   "auto": {
+    "baseBranch": "main",
     "plugins": [
       "npm",
       "conventional-commits"
