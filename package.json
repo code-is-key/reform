@@ -42,7 +42,7 @@
   "files": [
     "lib/"
   ],
-  "repository": "code-is-key/reform",
+  "repository": "code-is-key/reform.git",
   "auto": {
     "plugins": [
       "npm",
