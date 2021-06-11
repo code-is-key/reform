@@ -17,6 +17,9 @@
     "react": "17.0.2",
     "yup": "^0.32.9"
   },
+  "dependencies": {
+    "yup": "^0.32.9"
+  },
   "devDependencies": {
     "@auto-it/conventional-commits": "^10.29.3",
     "@types/jest": "^26.0.23",
