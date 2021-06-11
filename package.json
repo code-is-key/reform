@@ -8,7 +8,8 @@
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "typecheck": "tsc --noEmit --composite false",
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "release": "auto shipit --dry-run"
   },
   "author": "Simon Gronborg",
   "license": "MIT",
@@ -17,10 +18,12 @@
     "yup": "^0.32.9"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.23",
+    "@auto-it/conventional-commits": "^10.29.3",
+    "@types/jest": "26.0.23",
     "@types/react": "17.0.6",
     "@typescript-eslint/eslint-plugin": "4.24.0",
     "@typescript-eslint/parser": "4.24.0",
+    "auto": "10.29.3",
     "eslint": "7.26.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-plugin-import": "2.23.2",
