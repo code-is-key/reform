@@ -9,7 +9,7 @@
     "typecheck": "tsc --noEmit --composite false",
     "build": "tsc",
     "release": "auto shipit --dry-run",
-    "release:ci": "auto shipit -v"
+    "release:ci": "auto shipit"
   },
   "author": "Simon Gronborg",
   "license": "MIT",
