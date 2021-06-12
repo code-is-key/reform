@@ -1,3 +1,15 @@
+# v0.0.17 (Sat Jun 12 2021)
+
+#### 🐛 Bug Fix
+
+- fix: add docs ([@groenborg](https://github.com/groenborg))
+
+#### Authors: 1
+
+- Simon Grønborg ([@groenborg](https://github.com/groenborg))
+
+---
+
 # v0.0.10 (Sat Jun 12 2021)
 
 #### 🐛 Bug Fix
