@@ -1,3 +1,15 @@
+# v0.1.0 (Sat Jun 12 2021)
+
+#### 🚀 Enhancement
+
+- feat: update build to include files ([@groenborg](https://github.com/groenborg))
+
+#### Authors: 1
+
+- Simon Grønborg ([@groenborg](https://github.com/groenborg))
+
+---
+
 # v0.0.17 (Sat Jun 12 2021)
 
 #### 🐛 Bug Fix
