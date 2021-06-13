@@ -1,3 +1,15 @@
+# v0.1.1 (Sun Jun 13 2021)
+
+#### ⚠️ Pushed to `main`
+
+- fixsubmit prevent default ([@groenborg](https://github.com/groenborg))
+
+#### Authors: 1
+
+- Simon Grønborg ([@groenborg](https://github.com/groenborg))
+
+---
+
 # v0.1.0 (Sat Jun 12 2021)
 
 #### 🚀 Enhancement
