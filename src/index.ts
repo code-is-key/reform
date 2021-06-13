@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, FormEvent, useState } from 'react';
 import { ValidationError, ObjectSchema } from 'yup';
 
 type SchemaShape<T> = {
@@ -42,7 +42,8 @@ export const useForm = <T>(properties?: FormProperties<T>) => {
     setMessages('');
   };
 
-  const onSubmit = (callback: () => void) => () => {
+  const onSubmit = (callback: () => void) => (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     try {
       properties?.schema.validateSync(values, { abortEarly: false });
     } catch (error) {
@@ -73,7 +74,7 @@ export const useForm = <T>(properties?: FormProperties<T>) => {
 export function yupErrorToErrorObject<T>(err: ValidationError): ErrorObject<T> {
   const object = {} as ErrorObject<T>;
 
-  err.inner.forEach((x: any) => {
+  err.inner.forEach((x) => {
     if (x.path !== undefined) {
       object[x.path as keyof T] = x.errors;
     }
